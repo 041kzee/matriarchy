@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Matriarchy
 
-## Getting Started
+Matriarchy is a women-focused web platform designed to empower users by providing easy access to legal rights, health, education, and family resources. The project creates a safe, informative, and user-friendly digital space where women can explore important laws, rights, and educational opportunities.
 
-First, run the development server:
+Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website features a maroon-themed design and clean UI, emphasizing accessibility and clarity. Users can explore content through a search interface powered by Google’s Gemini AI, which provides easy-to-understand explanations of laws, rights, and topics relevant to women. The platform is organized into categories like Workplace Rights, Health & Safety, Family & Marriage, and Education Rights for easy navigation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+AI-Powered Search: Gemini API generates detailed responses to user queries.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+User Registration & Authentication: Firebase Authentication ensures a secure, women-only community.
 
-## Learn More
+Database: Firebase Firestore stores user data safely.
 
-To learn more about Next.js, take a look at the following resources:
+Responsive Design: Mobile-friendly layout with a maroon theme.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Organized Content: Clear sections for laws, rights, and educational resources.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Technology Stack
 
-## Deploy on Vercel
+Frontend: Next.js, React, Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Backend / API: Next.js API routes to securely handle Gemini API requests
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Authentication & Database: Firebase Authentication and Firestore
+
+AI Integration: Google Gemini API for AI-powered legal guidance
+
+How I Built It
+
+Set up Next.js project with structured pages for Home, Signup, Blog, and About.
+
+Styling: Tailwind CSS for a maroon-themed responsive design.
+
+Firebase Integration: Authentication for secure registration and Firestore for storing user data.
+
+Gemini AI Integration: Created an API route to fetch AI-generated answers while keeping the API key hidden.
+
+Search & Categories: Implemented a searchable interface and organized content into categories.
+
+Deployment & Git: Used Git for version control with .gitignore for sensitive files and pushed the project to GitHub.
+
+Future Enhancements
+
+Expand AI responses and provide interactive legal guides.
+
+Add more informative blog posts and case studies.
+
+Improve community engagement and resources for women.
