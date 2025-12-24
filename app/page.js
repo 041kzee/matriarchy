@@ -10,7 +10,7 @@ export default function MatriarchyLanding() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
 
-  const GEMINI_API_KEY = "api_key";
+  const GEMINI_API_KEY = "api_key";  //add gemini api key , it is not added here for safety purposes.
 
   const handleSearch = async () => {
     if (!searchQuery.trim()) return;
